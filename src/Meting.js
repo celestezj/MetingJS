@@ -2,7 +2,7 @@ console.log(`${'\n'} %c MetingJS v1.2.0 %c https://github.com/metowolf/MetingJS 
 
 let aplayers = [];
 let loadMeting = () => {
-    let api = 'https://api.i-meto.com/meting/api?server=:server&type=:type&id=:id&r=:r';
+    let api = 'https://api.injahow.cn/meting/?type=playlist&id=:id'; //'https://api.i-meto.com/meting/api?server=:server&type=:type&id=:id&r=:r'; see https://blog.anheyu.com/posts/a76e.html and https://github.com/celestezj/meting-api
     if (typeof meting_api !== 'undefined') api = meting_api;
 
     for (let i = 0; i < aplayers.length; i++) {
